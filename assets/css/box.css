@@ -1,0 +1,88 @@
+/*
+ * 右下角主程序
+ */
+.box-body{
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+.layui-tab-brief{
+	margin: 0;
+}
+.box-title-msg{
+	background: #F8F8F8;
+	padding: 5px 10px;
+}
+.box-btn-list{
+	background: #F8F8F8;
+}
+.box-btn-list .layui-icon{
+	font-size: 24px;
+}
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #5FB878;
+}
+*{
+	user-select:none;
+}
+.layui-tab-content {
+     padding: 0; 
+}
+.layui-colla-title {
+    background-color: #fff;
+    border:none;
+    padding: 0 15px 0 10px;
+}
+.layui-colla-item,.layui-collapse,.layui-colla-content{
+	border: none;
+}
+.layui-colla-title .layui-icon{
+	color: #dddddd;
+	margin-right:5px;
+}
+
+/*好友列表部分*/
+.layui-colla-content{
+	padding: 0;
+}
+.box-my-signal{
+	text-indent: 5px;
+	color:#d2d2d2;
+	font-size: 10px;
+}
+.box-line-1{
+	white-space:nowrap; 
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+.box-my-list{
+	padding: 7px 10px 0;
+}
+.box-my-list:hover{
+	background-color: #e2e2e2;
+}
+.box-my-pic{
+	width: 38px;
+	height: 40px;
+	border-radius: 50%;
+}
+.box-my-name{
+	text-indent: 5px;
+}
+
+/*底部工具栏*/
+.box-bottom-toolbar{
+	position: fixed;
+	left: 0;
+	bottom: 0; 
+	height: 38px;
+	width: 100%; 
+	background-color: #F8F8F8;
+}
+.box-bottom-toolbar .layui-icon{
+	display: inline-block;
+	width: 18%;
+	text-align: center;
+	line-height: 38px;
+	font-size: 16px;
+}

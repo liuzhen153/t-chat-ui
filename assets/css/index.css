@@ -1,0 +1,41 @@
+.layui-layer-title img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.layui-layer-title .title-container{
+    display: inline-block;
+}
+.layui-layer-title .title-name{
+    position: relative;
+    font-size: large;
+    top: -15px;
+    left: 10px;
+    height: 20px;
+}
+.layui-layer-title .title-msg{
+    display: inline-block;
+    position: relative;
+    color: red;
+    top: -15px;
+    left: 10px;
+}
+.layui-layer-title .box-title-container{
+    display: inline-block;
+}
+.layui-layer-title .box-title-name{
+    position: relative;
+    font-size: large;
+    top: -20px;
+    left: -10px;
+    height: 20px;
+}
+.layui-badge-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color:#5FB878 !important;
+}

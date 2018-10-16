@@ -1,0 +1,85 @@
+/*
+ * 聊天窗口
+ */
+.chat-body{
+	padding: 10px;
+	width:100%;
+	height: 100%;
+}
+.chat-content{
+	padding: 10px 10px 0;
+}
+.chat-toolbar-icon{
+	font-size: 25px;
+	margin:0 10px;
+	color: #333;
+}
+#chat-text{
+	width: 100%;
+	border:none;
+	resize:none;
+	/*overflow: hidden;*/
+	height: 100%;
+}
+.chat-btn{
+	float: right;
+	margin:10px;
+}
+.chat-btn-container{
+	
+}
+.layui-layer-btn {
+    position: relative;
+    top: -30px;
+}
+.layui-layer-btn0 {
+    height: 28px;
+    line-height: 28px;
+    margin: 5px 5px 0;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.layui-layer-btn0:hover{
+	color: #333;
+	background-color: #F0F0F0;
+}
+.layui-layer-btn1 {
+    height: 28px;
+    line-height: 28px;
+    margin: 5px 5px 0;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    border-color: #1E9FFF;
+    background-color: #1E9FFF;
+    color: #fff;
+}
+.chat-toolbar-hr{
+	position: fixed;
+	left: 0;
+	bottom: 170px;
+	width: 100%;
+}
+.chat-tolbar-container{
+	position: fixed;
+	left: 0;
+	bottom: 145px;
+}
+.chat-toolbar-chatmain{
+	position: fixed;
+	left: 0;
+	bottom: 40px;
+	height: 100px;
+	width: 100%;
+}
