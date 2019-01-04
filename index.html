@@ -23,18 +23,23 @@
     var title_box_content = '<div class="box-title-container"><div class="box-title-name">超超<span class="layui-bg-green layui-badge-dot"></span></div></div>';
     var chat_box_index = layer.open({
         type: 2,
+        closeBtn: 1,
         offset: 'rb',
         title: [
             title_box_content,
             title_box_style,
         ],
-        maxmin: false,
+        maxmin: true,
         shade: 0,
         shadeClose: false, //点击遮罩关闭层
         area: ['260px', '520px'],
         content: 'box.html',
         resize: false,
-        scrollbar: false
+        scrollbar: false,
+        cancel: function(index, layero){ // 点击关闭时执行最小化
+            layer.min(chat_box_index)
+            return false; 
+        }    
 
     });
 
